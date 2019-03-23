@@ -57,7 +57,7 @@
         "bracket_contents_foreground": "var(whitesmoke)",
         "tags_options": "stippled_underline",
         "gutter": "var(dodgerblue4)",
-        "gutter_foreground": "var(whitesmoke)",
+        "gutter_foreground": "var(gray72)",
         "inactive_selection": "#668B8B",
         "inactive_selection_foreground": "var(whitesmoke)",
         "fold_marker": "var(steelblue3)",
