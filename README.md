@@ -20,7 +20,7 @@ This theme is available as a third-party package repository.
 - Choose `Package Control: Add Repository` from the Command Palette (via `Tools > Coomand Palette` from the main menu or `ctrl+shift+p` (Win, Linux) or `cmd+shift+p` (macOS)).
 - On the field that will appear paste the url of this repository, that is `https://github.com/lmintmate/blue-mood-sublime`. You should get a message that the repository was successfully added.
 - Choose `Package Control: Install Package` from the Command Palette.
-- Select **`blue-mood-sublime`** and press <kbd>Enter</kbd>.
+- Select `blue-mood-sublime` and press <kbd>Enter</kbd>.
 
 ### Manual
 
@@ -32,11 +32,19 @@ This theme is available as a third-party package repository.
 
 ### In case of installation via Package Control
 
-Select `Preferences > Color scheme` from the main menu and choose the `Blue-Mood` colorscheme. Make sure you use the **new** [`.sublime-color-scheme`](https://www.sublimetext.com/docs/3/color_schemes.html) format, by selecting `Preferences > Settings` from the main menu and setting the following:
+Select `Preferences > Color scheme` from the main menu and choose the `Blue-Mood` colorscheme. If your Sublime Text version is Sublime Text 3 build 3149 and above, make sure you use the **new** `.sublime-color-scheme` format, by selecting `Preferences > Settings` from the main menu and setting the following:
 
 ```json
 
     "color_scheme": "Packages/blue-mood-sublime/Blue-Mood.sublime-color-scheme",
+
+```
+
+Otherwise, the colorscheme will most probably be already set correctly, like so:
+
+```json
+
+    "color_scheme": "Packages/blue-mood-sublime/Blue-Mood.tmTheme",",
 
 ```
 
