@@ -12,13 +12,35 @@ This colorscheme comes in two versions, a `.sublime-color-scheme` version and a 
 
 ## Installation
 
-Manual only for the moment.
+### Via Package Control
+
+This theme is available as a third-party package repository.
+
+- Make sure you already have [Package Control](https://packagecontrol.io/installation) installed.
+- Choose `Package Control: Add Repository` from the Command Palette (via `Tools > Coomand Palette` from the main menu or `ctrl+shift+p` (Win, Linux) or `cmd+shift+p` (macOS)).
+- On the field that will appear paste the url of this repository, that is `https://github.com/lmintmate/blue-mood-sublime`. You should get a message that the repository was successfully added.
+- Choose `Package Control: Install Package` from the Command Palette.
+- Select **`blue-mood-sublime`** and press <kbd>Enter</kbd>.
+
+### Manual
 
 - Download the desired file.
 - Go to the Packages folder on your system (by using `Preferences > Browse packages` from the main menu).
 - Copy the colorscheme file under the `Packages/User` subfolder.
 
 ## Activation
+
+### In case of installation via Package Control
+
+Select `Preferences > Color scheme` from the main menu and choose the `Blue-Mood` colorscheme. Make sure you use the **new** [`.sublime-color-scheme`](https://www.sublimetext.com/docs/3/color_schemes.html) format, by selecting `Preferences > Settings` from the main menu and setting the following:
+
+```json
+
+    "color_scheme": "Packages/blue-mood-sublime/Blue-Mood.sublime-color-scheme",
+
+```
+
+### In case of manual installation
 
 Select `Preferences > Color scheme` from the main menu and choose the `Blue-Mood` colorscheme.
 
