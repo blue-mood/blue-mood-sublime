@@ -2,7 +2,7 @@
 
 This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for Sublime Text.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/blue-mood/blue-mood-everything/master/screenshots/sublime-screenshot.png)
 
 Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between Sublime Text's theming system and emacs's theming system.
 
