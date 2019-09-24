@@ -18,7 +18,7 @@ This theme is available as a third-party package repository.
 
 - Make sure you already have [Package Control](https://packagecontrol.io/installation) installed.
 - Choose `Package Control: Add Repository` from the Command Palette (via `Tools > Command Palette` from the main menu or <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>P</kbd> (Win, Linux) or <kbd>Cmd</kbd> <kbd>Shift</kbd> <kbd>P</kbd> (macOS)).
-- On the field that will appear paste the url of this repository, that is `https://github.com/lmintmate/blue-mood-sublime`. You should get a message that the repository was successfully added.
+- On the field that will appear paste the url of this repository, that is `https://github.com/blue-mood/blue-mood-sublime`. You should get a message that the repository was successfully added.
 - Choose `Package Control: Install Package` from the Command Palette.
 - Select `blue-mood-sublime` and press <kbd>Enter</kbd>.
 
